@@ -1,0 +1,33 @@
+@import "../../index.scss";
+
+.footer {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  background: red;
+  font-family: $ShareFont;
+  .left-part {
+    width: 65%;
+    height: 100%;
+    background-color: $greyOfSite;
+    padding: 0 10px;
+    h3 {
+      font-size: 33px;
+    }
+  }
+  .right-part {
+    width: 35%;
+    height: 100%;
+    background-color: $orangeOfSite;
+    padding: 0 10px;
+    h3 {
+      font-size: 33px;
+    }
+    .social-network {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
