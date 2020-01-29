@@ -1,0 +1,37 @@
+@import "../../index.scss";
+
+.navbar {
+  height: 15vh;
+  width: 100%;
+  background-color: $blueOfSite;
+  color: $textWhiteColor;
+  font-family: $ShareFont;
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    h1 {
+      font-size: 44px;
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 600px;
+
+      li {
+        list-style-type: none;
+        font-size: 22px;
+      }
+    }
+    .navbar-icons {
+      i {
+        margin: 0 15px;
+      }
+    }
+  }
+}
