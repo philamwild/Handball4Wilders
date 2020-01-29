@@ -6,7 +6,9 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-container">
-        <h1>Handball 4 Wilders</h1>
+        <NavLink to="/">
+          <h1>Handball 4 Wilders</h1>
+        </NavLink>
         <ul>
           <NavLink to="/shoes">Chaussures</NavLink>
           <NavLink to="/ball">Ballons</NavLink>
