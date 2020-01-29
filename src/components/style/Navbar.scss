@@ -14,9 +14,14 @@
     width: 90%;
     height: 100%;
     margin: auto;
-    h1 {
-      font-size: 44px;
+    a {
+      text-decoration: none;
+      color: $textWhiteColor;
+      h1 {
+        font-size: 44px;
+      }
     }
+
     ul {
       display: flex;
       flex-direction: row;

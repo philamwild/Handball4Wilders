@@ -1,5 +1,10 @@
 import React from "react";
+import MenuCard from "./../components/MenuCard";
 
 export default function HomePage() {
-  return <div>c'est la home page</div>;
+  return (
+    <div>
+      <MenuCard />
+    </div>
+  );
 }
